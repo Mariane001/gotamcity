@@ -6,15 +6,46 @@
     --licorice: #1e191aff;
     --silver: #ada9a9ff;
     --jet: #302f2fff;
+    --color-titlle :#fafafafa;
 }
 header, nav, main, footer {
     max-width: 120rem;
     margin: 0 auto;
     /* border: solid .1rem #7d7576; */
+    background-color: var(--timberwolf-2);
+    padding: 0 1rem;
 }
 div.picture img {
     display: inline-block;
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
+    
+}
+section p {
+    text-align: justify;
+    padding: 1rem 0;
+}
+footer p{
+    text-align: center;
+}
+header h1, nav h2, section h2{
+    font-weight: 300;
+    line-height: 5rem;
+    font-size: 4rem;
+}
+nav ol{
+    line-height: 3rem;
+    padding: 1rem 0;
+    padding: 2rem;
+    list-style-type: decimal;
+}
+nav ol *{color: var(--licorice);}
+
+nav h2, section h2{
+    text-transform: capitalize;
+    font-size: xx-large;
+    background-color: var(--color-titlle);
+    padding-left: 1rem;
+    box-shadow: 0 .4rem 0 var(--silver);
 }
