@@ -5,6 +5,7 @@
 html { 
   font-size: 62.5%;
   block-size: border-box;
+  scroll-behavior: smooth;
 }
 
 /* style supplémentaire */
@@ -13,7 +14,7 @@ body {
   line-height: 1.6;
   margin: 0;
   letter-spacing: 0.1rem; /* espace entre les lettres */
-  font-weight: 100;
+  font-weight: 200;
 }
 
 *,::before, *::after {
@@ -23,6 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6, figure, blockquote, ol, ul{
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 a { text-decoration: none; }

@@ -7,3 +7,14 @@
     --silver: #ada9a9ff;
     --jet: #302f2fff;
 }
+header, nav, main, footer {
+    max-width: 120rem;
+    margin: 0 auto;
+    /* border: solid .1rem #7d7576; */
+}
+div.picture img {
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
