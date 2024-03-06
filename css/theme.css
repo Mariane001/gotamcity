@@ -6,7 +6,7 @@
     --licorice: #1e191aff;
     --silver: #ada9a9ff;
     --jet: #302f2fff;
-    --color-titlle :#fafafafa;
+    --color-title :#fafafafa;
 }
 header, nav, main, footer {
     max-width: 120rem;
@@ -29,6 +29,10 @@ section p {
 footer p{
     text-align: center;
 }
+footer img{
+    text-align: center;
+   
+}
 header h1, nav h2, section h2{
     font-weight: 300;
     line-height: 5rem;
@@ -45,7 +49,7 @@ nav ol *{color: var(--licorice);}
 nav h2, section h2{
     text-transform: capitalize;
     font-size: xx-large;
-    background-color: var(--color-titlle);
+    background-color: var(--color-title);
     padding-left: 1rem;
     box-shadow: 0 .4rem 0 var(--silver);
 }

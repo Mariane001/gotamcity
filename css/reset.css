@@ -15,6 +15,12 @@ body {
   margin: 0;
   letter-spacing: 0.1rem; /* espace entre les lettres */
   font-weight: 200;
+  background-image: url(../asset/cover-batman.jpg) ;
+  object-fit: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
 *,::before, *::after {
@@ -25,6 +31,9 @@ h1, h2, h3, h4, h5, h6, figure, blockquote, ol, ul{
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+header h1{
+  size: 4px;
 }
 
 a { text-decoration: none; }
