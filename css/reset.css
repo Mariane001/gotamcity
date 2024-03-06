@@ -10,7 +10,7 @@ html {
 
 /* style supplémentaire */
 body {
-  font: 1.6rem "roboto slab", sans-serif;
+  font: 1.6rem "roboto slab", sans-serif ;
   line-height: 1.6;
   margin: 0;
   letter-spacing: 0.1rem; /* espace entre les lettres */
@@ -20,7 +20,6 @@ body {
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
 
 *,::before, *::after {
