@@ -53,3 +53,9 @@ nav h2, section h2{
     padding-left: 1rem;
     box-shadow: 0 .4rem 0 var(--silver);
 }
+
+.bg-info{transition-duration: .6s;}
+.bg-info:target{
+    background-color: #222;
+    color: #fff;
+}
