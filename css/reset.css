@@ -6,7 +6,9 @@ html {
   font-size: 62.5%;
   block-size: border-box;
   scroll-behavior: smooth;
-}
+  background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+  url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
+/*   background-image: #000 url(../asset/cover-batman.jpg)no-repeat fixed center center / cover ; */}
 
 /* style supplémentaire */
 body {
@@ -15,7 +17,6 @@ body {
   margin: 0;
   letter-spacing: 0.1rem; /* espace entre les lettres */
   font-weight: 200;
-  background-image: url(../asset/cover-batman.jpg) ;
   object-fit: cover;
   background-size:cover;
   background-repeat: no-repeat;
